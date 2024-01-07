@@ -14,7 +14,7 @@ sudo iptables -A INPUT -m mac --mac-source [MAC_ADDRESS] -j DROP
 ```
 #### Replace [MAC_ADDRESS] with the MAC address of the device you want to disconnect.
 
-## If you want to disconnect  
+## If you want to Delete the Rule fro iptable    
  list the current iptables rules along with their line numbers:  
 
  ```bash
